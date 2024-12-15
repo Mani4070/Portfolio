@@ -3,7 +3,7 @@ import project from "../assets/project.png";
 
 export const projects = [
     {
-      title: "Project A",
+      title: "Hotel",
       imageSrc: project,
       description:
         "This is a project made to learn the latest languages by building an app.",
@@ -12,7 +12,7 @@ export const projects = [
       source: "https://www.github.com",
     },
     {
-      title: "Project B",
+      title: "Chatbot ai",
       imageSrc: project,
       description:
         "This is a project made to learn the latest languages by building an app.",
@@ -21,7 +21,7 @@ export const projects = [
       source: "https://www.github.com",
     },
     {
-      title: "Project C",
+      title: "Ikshana",
       imageSrc: project,
       description:
         "This is a project made to learn the latest languages by building an app.",

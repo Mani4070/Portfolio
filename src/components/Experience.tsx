@@ -3,15 +3,15 @@ import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.png";
 import react from "../assets/skills/react.png";
 import node from "../assets/skills/node.png";
-import graph from "../assets/skills/graphql.png";
 import mongo from "../assets/skills/mongodb.png";
 import figma from "../assets/skills/figma.png";
-
-import google from "../assets/history/google.png";
-import microsoft from "../assets/history/microsoft.png";
-import netflix from "../assets/history/netflix.png";
-
-
+import javascript from '../assets/skills/javascript.png'
+import innostes from "../assets/history/innostes.png";
+import angular from '../assets/skills/angular.png'
+import nest from '../assets/skills/nest.png'
+import next from '../assets/skills/next.png'
+import postgres from '../assets/skills/postgres.png'
+import python from '../assets/skills/python.png'
 export const skills = [
   {
     title: "HTML",
@@ -22,6 +22,10 @@ export const skills = [
     imageSrc: css,
   },
   {
+    title: "Java Script",
+    imageSrc: javascript,
+  },
+  {
     title: "React",
     imageSrc: react,
   },
@@ -30,12 +34,28 @@ export const skills = [
     imageSrc: node,
   },
   {
-    title: "GraphQL",
-    imageSrc: graph,
-  },
-  {
     title: "MongoDB",
     imageSrc: mongo,
+  },
+  {
+    title: "Angular",
+    imageSrc: angular,
+  },
+  {
+    title: "Next",
+    imageSrc: next,
+  },
+  {
+    title: "Nest",
+    imageSrc: nest,
+  },
+  {
+    title: "Postgres",
+    imageSrc: postgres,
+  },
+  {
+    title: "Python",
+    imageSrc: python,
   },
   {
     title: "Figma",
@@ -46,27 +66,23 @@ export const skills = [
 export const history = [
   {
     role: "Software Engineer",
-    organisation: "Google",
-    startDate: "Sept, 2022",
+    organisation: " Innostes",
+    startDate: "Oct, 2023",
     endDate: "Present",
-    experiences: ["Worked on Google Maps", "Reduced load times by 50%"],
-    imageSrc: google,
+    experiences: [ "Developed full-stack applications using HTML, CSS, JavaScript, React, Node.js, MongoDB, PostgreSQL, Angular, Next.js, and Nest.js.",
+        "Optimized performance and reduced load times by 50%, improving user experience and scalability.",
+        "Collaborated with cross-functional teams to build efficient, high-performance web applications."],
+    imageSrc: innostes,
   },
   {
-    role: "UI Designer",
-    organisation: "Mirosoft",
-    startDate: "Aug, 2021",
-    endDate: "Aug, 2022",
-    experiences: ["Worked on Windows 10", "Designed the control panel"],
-    imageSrc: microsoft,
-  },
-  {
-    role: "SWE Intern",
-    organisation: "Netflix",
-    startDate: "Apr, 2020",
-    endDate: "Jun, 2020",
-    experiences: ["Worked on component library", "Helped create UI components"],
-    imageSrc: netflix,
+    role: "Software Intern",
+    organisation: " Innostes",
+    startDate: "july, 2023",
+    endDate: "sep, 2023",
+    experiences: [    "Learned and worked with front-end technologies (HTML, CSS, JavaScript, React) and back-end (Node.js, MongoDB, PostgreSQL).",
+        "Contributed to the design and development of a control panel, gaining hands-on full-stack development experience."
+    ],
+    imageSrc: innostes,
   },
 ];
 
@@ -102,7 +118,7 @@ const Experience: React.FC = () => {
                             <ul>
                                 {historyItem.experiences.map((experience:any,id:any)=>{
                                     return(
-                                        <li key={id}>{experience}</li>
+                                        <li style={{fontSize:'20px',marginTop:'8px'}} key={id}>{experience}</li>
                                     )
                                 })}
                             </ul>
