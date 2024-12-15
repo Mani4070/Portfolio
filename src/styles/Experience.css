@@ -1,0 +1,17 @@
+.experience {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .experience h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .experience p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
