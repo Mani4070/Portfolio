@@ -19,6 +19,10 @@ a {
   text-decoration: inherit;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 
 /*--------------------------------------------------------------
 # General
@@ -182,6 +186,7 @@ html {
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  border:0;
 }
 
 .hero__img {

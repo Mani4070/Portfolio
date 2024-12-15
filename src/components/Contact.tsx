@@ -3,20 +3,16 @@ import '../styles/Contact.css'; // Ensure you are importing the CSS
 import emailIcon from '../assets/emailIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import githubIcon from '../assets/githubIcon.png';
-import profileImage from '../assets/hero.jpg'; // Path to your profile image
+import profileImage from '../assets/user.jpg'; // Path to your profile image
 
 const Contact: React.FC = () => {
   return (
     <footer className="contact__container" id="contact">
-      {/* <div className='contact__text'>
-        <h2>Contact</h2>
-        <p>Feel Free to Reach Out</p>
-      </div> */}
       <div className="contact__profile">
         <img src={profileImage} alt="Profile" className="contact__profile-img" />
         <div className="contact__profile-info">
           <h3>Maniakanta Vaddi</h3>
-          <p>Frontend Developer</p>
+          <p>MERN Stack Developer</p>
         </div>
       </div>
       <ul className='contact__links'>

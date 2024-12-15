@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import closeIcon from '../assets/closeIcon.png';
 import menuIcon from '../assets/menuIcon.png';
-// import '../styles/Navbar.css';  // Ensure CSS is imported
-// import '../App.css'
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
