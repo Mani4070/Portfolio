@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import Portfolio from './Portfolio';
 import Experience from './Experience';
 import Skills from './Skills';
