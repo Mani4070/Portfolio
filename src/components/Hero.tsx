@@ -1,5 +1,4 @@
 import React from 'react';
-import hero from '../assets/hero.jpg'
 import user from '../assets/user.jpg'
 const Hero: React.FC = () => {
     const handleContactClick = () => {
